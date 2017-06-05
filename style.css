@@ -1,0 +1,34 @@
+.body{
+
+}
+.wraper{
+  display: flex;
+  justify-content: center;
+}
+button{
+  margin: 2px;
+}
+.calculator{
+  width:250px;
+  border: 1px solid pink;
+
+}
+.labels{
+  border: 1px solid red;
+}
+.labels--show{
+  font-size: 20px;
+}
+.labels--memory{
+  font-size: 10px;
+}
+.buttons{
+  display: flex;
+}
+.numbers{
+  border: 1px solid yellow;
+  padding: 5px;
+}
+.operators{
+  padding: 5px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>calculator</title>
+  </head>
+  <body>
+    <div class="wraper">
+      <div class="calculator">
+        <div class="labels">
+          <div><label class="labels--memory"></label></div>
+          <div><label class="labels--show">0</label></div>
+        </div>
+        <div class="buttons">
+          <div class="numbers">
+            <div>
+              <button class="numbers--button" onclick="addDigit(this)">1</button>
+              <button class="numbers--button" onclick="addDigit(this)">2</button>
+              <button class="numbers--button" onclick="addDigit(this)">3</button>
+            </div>
+            <div>
+              <button class="numbers--button" onclick="addDigit(this)">4</button>
+              <button class="numbers--button" onclick="addDigit(this)">5</button>
+              <button class="numbers--button" onclick="addDigit(this)">6</button>
+            </div>
+            <div>
+              <button class="numbers--button" onclick="addDigit(this)">7</button>
+              <button class="numbers--button" onclick="addDigit(this)">8</button>
+              <button class="numbers--button" onclick="addDigit(this)">9</button>
+            </div>
+            <button class="numbers--button" onclick="addDigit(this)">0</button>
+          </div>
+          <div class="operators">
+            <div>
+              <button class="operators--button" onclick="addOperator(this)">+</button>
+              <button class="operators--button" onclick="addOperator(this)">-</button>
+            </div>
+            <div>
+              <button class="operators--button" onclick="addOperator(this)">*</button>
+              <button class="operators--button" onclick="addOperator(this)">/</button>
+            </div>
+          </div>
+        </div>
+        <div class="eval">
+          <button class="eval--button" onclick="eval()">=</button>
+        </div>
+        <div class="clear">
+          <button class="clear--button" onclick="clear1()">C</button>
+        </div>
+      </div>
+    </div>
+    <script src="calc.js"></script>
+  </body>
+</html>
